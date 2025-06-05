@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPlaceFragment"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/tvTitleAddPlace"
+        android:text="Crear lugar"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/ivPlacePhotoDemo"
+        android:layout_width="100dp"
+        android:layout_below="@+id/tvTitleAddPlace"
+        android:layout_centerHorizontal="true"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"/>
+    <EditText
+        android:id="@+id/etAddPlaceDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivPlacePhotoDemo"
+        android:layout_margin="10dp"
+        android:hint="Direccion" />
+    <EditText
+        android:id="@+id/etAddPlaceDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddPlaceDireccion"
+        android:layout_margin="10dp"
+        android:hint="Descripcion" />
+
+    <TextView
+        android:id="@+id/tvSelectPhotoPlace"
+        android:text="Selecciona una foto"
+        android:gravity="center"
+        android:layout_below="@+id/etAddPlaceDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spAddPlacePhoto"
+        android:entries="@array/ordenamiento"
+        android:layout_below="@+id/tvSelectPhotoPlace"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+    <!--button for saving  a note-->
+    <android.widget.Button
+        android:id="@+id/idBtnAddPlaceCrear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/spAddPlacePhoto"
+        android:background="@color/color1"
+        android:text="Crear"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <android.widget.Button
+        android:id="@+id/idBtnAddPlaceRegresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/idBtnAddPlaceCrear"
+        android:background="@color/color2"
+        android:text="Regresar"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>

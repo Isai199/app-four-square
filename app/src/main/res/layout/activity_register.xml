@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/tvRegisterTitle"
+        android:text="Registrate aqui"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etRegisterNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvRegisterTitle"
+        android:layout_margin="10dp"
+        android:hint="Ingresa tu nombre" />
+
+    <EditText
+        android:id="@+id/etRegisterCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegisterNombre"
+        android:layout_margin="10dp"
+        android:hint="Ingresa correo" />
+    <EditText
+        android:id="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRegisterCorreo"
+        android:layout_margin="10dp"
+        android:hint="Ingresa contraseñia" />
+
+    <TextView
+        android:id="@+id/tvRegisterTitleType"
+        android:text="Selecciona un tipo de cuenta"
+        android:gravity="center"
+        android:layout_below="@+id/etRegisterPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spRegisterType"
+        android:entries="@array/tipoCuenta"
+        android:layout_below="@+id/tvRegisterTitleType"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--button for saving  a note-->
+    <android.widget.Button
+        android:id="@+id/idBtnRegisterRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/spRegisterType"
+        android:background="@color/color1"
+        android:text="Registrarse"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+
+
+
+
+</RelativeLayout>

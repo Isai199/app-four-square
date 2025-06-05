@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/experienceTitle"
+        android:layout_marginTop="80dp"
+        android:textSize="55sp"
+        android:textStyle="bold" />
+    <!--recycler view for displaying all notes-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ordersRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_place"
+        android:layout_below="@+id/tvTitle"/>
+
+    <!--fab for adding a new note-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFABAddPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic__location"
+        app:backgroundTint="@color/color1" />
+</RelativeLayout>

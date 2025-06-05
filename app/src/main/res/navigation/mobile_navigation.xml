@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.appfoursquare.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_navigation_home_to_addPlaceFragment"
+            app:destination="@id/addPlaceFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_commentFragment"
+            app:destination="@id/commentFragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.appfoursquare.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.appfoursquare.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/addPlaceFragment"
+        android:name="com.appfoursquare.AddPlaceFragment"
+        android:label="fragment_add_place"
+        tools:layout="@layout/fragment_add_place" >
+
+
+        <action
+            android:id="@+id/action_addPlaceFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/commentFragment"
+        android:name="com.appfoursquare.CommentFragment"
+        android:label="fragment_comment"
+        tools:layout="@layout/fragment_comment" >
+        <action
+            android:id="@+id/action_commentFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <argument
+            android:name="place"
+            app:argType="com.appfoursquare.models.places.Place" />
+        <action
+            android:id="@+id/action_commentFragment_to_addCommentFragment"
+            app:destination="@id/addCommentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCommentFragment"
+        android:name="com.appfoursquare.AddCommentFragment"
+        android:label="fragment_add_comment"
+        tools:layout="@layout/fragment_add_comment" >
+
+        <action
+            android:id="@+id/action_addCommentFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <argument
+            android:name="place"
+            app:argType="com.appfoursquare.models.places.Place" />
+    </fragment>
+</navigation>

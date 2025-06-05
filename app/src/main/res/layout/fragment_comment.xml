@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CommentFragment"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivCommentedPlace"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tvAuthorPlace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/commentAuthor"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ivCommentedPlace"/>
+    <TextView
+        android:id="@+id/tvAuthorDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/authorDescription"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvAuthorPlace"/>
+    <TextView
+        android:id="@+id/tvItemCommentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/comments"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:layout_below="@+id/tvAuthorDescription"/>
+    <!--recycler view for displaying all notes-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/opinionsRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/tvItemCommentTitle"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/item_comment"
+        />
+
+    <!--fab for adding a new note-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFABAddComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/idFABACommnetReturnt"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_add_comment"
+        app:backgroundTint="@color/color2" />
+    <!--fab for adding a new note-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/idFABACommnetReturnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_keyboard"
+        app:backgroundTint="@color/color3" />
+
+
+</RelativeLayout>

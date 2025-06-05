@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+
+    <TextView
+        android:id="@+id/tvLoginTitle"
+        android:text="Ingresa tus datos"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etLoginCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLoginTitle"
+        android:layout_margin="10dp"
+        android:hint="Ingresa correo" />
+    <EditText
+        android:id="@+id/etloginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLoginCorreo"
+        android:layout_margin="10dp"
+        android:hint="Ingresa contraseñia" />
+
+    <!--button for saving  a note-->
+    <android.widget.Button
+        android:id="@+id/idBtnLoginIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/etloginPassword"
+        android:background="@color/color1"
+        android:text="Iniciar sesion"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+    <android.widget.Button
+        android:id="@+id/idBtnRegisterRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/idBtnLoginIniciarSesion"
+        android:background="@color/color2"
+        android:text="Registrarse"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>

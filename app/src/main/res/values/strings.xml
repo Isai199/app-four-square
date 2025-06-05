@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AppFourSquare</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="ordenamiento">
+        <item>Playa</item>
+        <item>Arco della pace</item>
+        <item>Pirámide egipcia</item>
+    </string-array>
+
+
+    <string-array name="tipoCuenta">
+        <item>user</item>
+        <item>admin</item>
+
+    </string-array>
+
+    <string name="experienceTitle">Experiencias únicas por el Mundo</string>
+    <string name="addCommentTitle">Comparte tu opinión</string>
+    <string name="commentBy">Comentado por: </string>
+    <string name="commentAuthor">Autor</string>
+    <string name="authorDescription">Descripción</string>
+    <string name="comments">Comentarios</string>
+</resources>
