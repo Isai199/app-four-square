@@ -1,7 +1,7 @@
 # AppFourSquare
 
 ## Description
-Application that let to the users share their experience around the world, and anthers users can
+Application that let to the users share their experience around the world, and another users can
 comment the publication.
 
 But before the users can see the publication, the admin needs to check it.
@@ -25,3 +25,5 @@ But before the users can see the publication, the admin needs to check it.
     - The app save the data locally
 - Share-preferences
     - To save user data from the login
+
+## ![See the project](https://imgur.com/a/pcxaeaL)
