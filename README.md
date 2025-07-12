@@ -30,16 +30,16 @@ But before the users can see the publication, the admin needs to check it.
 ### ![See the project](https://lh3.googleusercontent.com/pw/AP1GczP_itQE2sufS8Qgd9c71qetmskckrHRFdAUT86ejSslKjlW6ANAiVb82r8GA1AcRy6B6eU2viUOuijlb0oL9xouiHTEejvMwtG0COESxTVNVR0twSY19dXCTbyWPV4NouX5drxYYjKCjA7BFKr99Vo=w172-h397-s-no-gm?authuser=0)
 
 ## Sign in
-### ![See the project](https://photos.app.goo.gl/tDyZwxfqRcD26e1r5)
+### ![See the project](https://lh3.googleusercontent.com/pw/AP1GczNu88eh4GBdOxYs7KIDp4CX0NfGD3VJXb6IaSCYNbpBfdKoapxZMwQFLCsO3Hh6Mvmoo7IXfO2c8SsAC-fA4TmhQrOqOdmUURFJRJBxHtjjEsynkDcGgWhOlbmXzNcVOdTZnc45ArSk-RCDJ54j4XY=w177-h403-s-no-gm?authuser=0)
 
 ## Add place
-### ![See the project](https://photos.fife.usercontent.google.com/pw/AP1GczOb5OQPhb3bwYw5lEhHQb0vALp7n1Vb9hQgHzhWj6eYQ5z4kyaoWT0=w172-h405-s-no-gm?authuser=0)
+### ![See the project](https://lh3.googleusercontent.com/pw/AP1GczMDGwgPef3t3YZL5l07lDSKEC280KZ_xvbV8Mh7L-Ce30XN3jTF4nQ1RqFD0cN8qtZOLYXo8YhGd54rbgNCXICUTIjYIdpXWIIToxHu2JrFlPaMNfab7ANq0jqDIk11JEnt1Ynz425vBF5z1qvdrRw=w172-h405-s-no-gm?authuser=0)
 
 ## All places
-### ![See the projects](https://photos.fife.usercontent.google.com/pw/AP1GczP-p5BIW75NO_6V7ZnDCMEkzZp7GKt2DsgeumX__cgLUJKM_WPTESw=w181-h401-s-no-gm?authuser=0)
+### ![See the projects](https://lh3.googleusercontent.com/pw/AP1GczNwDPud-N2IkceX63iqUiUpxSlocjPYVo1Huq-1nQ8VVqZ8byuWipejiu4uTDinHRd0D9ZNt5z8Ofg1QDMrgZ3Id8b_z-9xDa_x0lGG1L6lkN1VSDB00d1TsOId23_mhiFeqpgOaDyq_jNQlnwSGYs=w181-h401-s-no-gm?authuser=0)
 
 ## Comment section
-### ![See the projects](https://photos.fife.usercontent.google.com/pw/AP1GczOr2paUaDDe3uvWkKdL8hUY7cNFzTB19jQKBsFPN16OMvS9ucmQ27U=w175-h407-s-no-gm?authuser=0)
+### ![See the projects](https://lh3.googleusercontent.com/pw/AP1GczMvFo5yCl572Q94eBOYUZ1eKkQ7r4Ef09DL1QHX6hGXIkwkmuxvKyOoaON2WVy_GWjiodQc8fLdP8q7tZ2Sxx_NF8JOwIIBvGxl4aCJfKibTbIFJHo1v1yhPABMZt10cwYGNMNHJzV7cxt89ElHCu0=w175-h407-s-no-gm?authuser=0)
 
 ## Many users can comment
-### ![See the project](https://photos.fife.usercontent.google.com/pw/AP1GczNgk4TtYEWR_r2Vj-USNc_s-HdfY1iB1kXBLCS9ijuHYQjlE-avyPo=w190-h402-s-no-gm?authuser=0)
+### ![See the project](https://lh3.googleusercontent.com/pw/AP1GczPnJPnjmpeJwu8xylBsKZxS0HrI9vXTehIx76TLz90McpSq2_Yq8pQhkiE9cISSXlAq7degFjNySZaCmU7eAs7ErzVhc9ISqgScmlfJkv0XRMX95ucf0ri22mu6v6nBJKhyrmQDmY9zY_bVNs-XTAk=w190-h402-s-no-gm?authuser=0)
