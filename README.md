@@ -30,7 +30,7 @@ But before the users can see the publication, the admin needs to check it.
 ### ![See the project](https://lh3.googleusercontent.com/pw/AP1GczP_itQE2sufS8Qgd9c71qetmskckrHRFdAUT86ejSslKjlW6ANAiVb82r8GA1AcRy6B6eU2viUOuijlb0oL9xouiHTEejvMwtG0COESxTVNVR0twSY19dXCTbyWPV4NouX5drxYYjKCjA7BFKr99Vo=w172-h397-s-no-gm?authuser=0)
 
 ## Sign in
-### ![See the project](https://photos.fife.usercontent.google.com/pw/AP1GczOfaMi8CaOh0qhCYNmftw9IhfiQQGek9gjEF15mb5GBq3dvyeuU43k=w177-h403-s-no-gm?authuser=0)
+### ![See the project](https://photos.app.goo.gl/tDyZwxfqRcD26e1r5)
 
 ## Add place
 ### ![See the project](https://photos.fife.usercontent.google.com/pw/AP1GczOb5OQPhb3bwYw5lEhHQb0vALp7n1Vb9hQgHzhWj6eYQ5z4kyaoWT0=w172-h405-s-no-gm?authuser=0)
